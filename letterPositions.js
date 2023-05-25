@@ -40,7 +40,7 @@ const letterPositions = function(sentence) {
 
 const positions = letterPositions("hello");
 
-assertArraysEqual(positions['h'], [0]); // Expect: Pass
-assertArraysEqual(positions['e'], [1]); // Expect: Pass
-assertArraysEqual(positions['l'], [2, 3]); // Expect: Pass
-assertArraysEqual(positions['o'], [4]); // Expect: Pass
+assertArraysEqual(positions['h'], [0]); //  Pass
+assertArraysEqual(positions['e'], [1]); //  Pass
+assertArraysEqual(positions['l'], [2, 3]); //  Pass
+assertArraysEqual(positions['o'], [4]); // Pass

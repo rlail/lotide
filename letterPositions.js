@@ -44,3 +44,5 @@ assertArraysEqual(positions['h'], [0]); //  Pass
 assertArraysEqual(positions['e'], [1]); //  Pass
 assertArraysEqual(positions['l'], [2, 3]); //  Pass
 assertArraysEqual(positions['o'], [4]); // Pass
+
+module.exports = letterPositions

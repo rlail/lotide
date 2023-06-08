@@ -26,3 +26,5 @@ const obj1 = {
 
 const callback1 = x => x.stars === 2;
 assertEqual(findKey(obj1, callback1), "noma");
+
+module.exports = findKey

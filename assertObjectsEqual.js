@@ -52,3 +52,4 @@ const obj2 = { b: 2, a: '1' };
 
 assertObjectsEqual(obj1, obj2);
 
+module.exports = assertObjectsEqual

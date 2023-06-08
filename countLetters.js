@@ -29,3 +29,4 @@ assertEqual(Object.values(obj)[0], 2); //Only for L's in LHL
 assertEqual(Object.values(obj)[1], 1); //Only for H's in LHL
 assertEqual(Object. keys(obj1). length, 10) //For entire lighthouse in the house
 
+module.exports = countLetters

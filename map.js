@@ -48,3 +48,5 @@ assertArraysEqual(results4, [2, 4, 6, 8, 10]);
 // Test case 5: Check if each word contains the letter "o"
 const results5 = map(words, word => word.includes("o"));
 assertArraysEqual(results5, [true, true, true, false, true]);
+
+module.exports = map 

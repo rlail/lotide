@@ -41,3 +41,5 @@ const flatten = function(array) {
   }
   return flattenedArray;
 };
+
+module.exports = flatten
